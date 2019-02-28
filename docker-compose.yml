@@ -1,0 +1,11 @@
+version: '3.1'
+
+services:
+  app:
+    build: .
+    environment:
+      APP_ENV: theMoon
+      APP_PORT: 3000 
+    ports:
+      - '3000:3000'
+    command: npm run start
