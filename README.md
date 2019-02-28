@@ -1,7 +1,4 @@
-# Offerzen Assignment
-## Narayan
-
-# Bubble sort array from api endpoint
+# Bubble sort array api
 This app runs a bubble sort, removes `null` and `undefined values` and flattens the array.
 Written in typescript
 
@@ -14,7 +11,7 @@ Written in typescript
 ### npm run build-start: Clean, build, test, lint, if pass then run server.js
 ### npm run start: Start server
 
-## Read `package.json` for the full list of commands and descriptions
+### Read `package.json` for the full list of commands and descriptions
 
 # Run in Docker 
 ```
