@@ -1,5 +1,6 @@
 # Bubble sort array api
-This app runs a bubble sort, removes `null` and `undefined values` and flattens the array.
+This app runs an api which has one endpoint at `/`, if you post a body with an array it does the following:
+bubble sorts, removes `null` and `undefined values` and flattens the array.
 Written in typescript
 
 # Npm run commands
