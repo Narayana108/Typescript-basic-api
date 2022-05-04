@@ -1,16 +1,18 @@
-# Bubble sort array api
+# Basic Typescript API with unit tests
+- Demostrates a well structerd typescript api and best practises.
+- Includes unit tests and docker
+ 
 This app runs an api which has one endpoint at `/`, if you post a body with an array it does the following:
 bubble sorts, removes `null` and `undefined values` and flattens the array.
-Written in typescript
 
 # Npm run commands
-### npm run build: Clean and rebuild the project
-### npm run fix: Try to automatically fix any linting problems
-### npm run test: Lint and unit test the project
-### npm run watch: Watch and rebuild the project on save, then rerun relevant tests
-### npm run cov: Rebuild, run tests, then create and open the coverage report
-### npm run build-start: Clean, build, test, lint, if pass then run server.js
-### npm run start: Start server
+- `npm run build` Clean and rebuild the project
+- `npm run fix` Try to automatically fix any linting problems
+- `npm run test` Lint and unit test the project
+- `npm run watch` Watch and rebuild the project on save, then rerun relevant tests
+- `npm run cov` Rebuild, run tests, then create and open the coverage report
+- `npm run build-start` Clean, build, test, lint, if pass then run server.js
+- `npm run start` Start server
 
 ### Read `package.json` for the full list of commands and descriptions
 
